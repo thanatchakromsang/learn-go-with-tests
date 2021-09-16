@@ -1,2 +1,2 @@
 # learn-go-with-tests
-Learn go with tests save point
+My assignment / resources for [learn go with tests](https://quii.gitbook.io/learn-go-with-tests/) 
