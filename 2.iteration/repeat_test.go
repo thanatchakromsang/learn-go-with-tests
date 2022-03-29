@@ -1,4 +1,4 @@
-package iteration
+package main
 
 import (
 	"fmt"
@@ -16,9 +16,9 @@ func Repeat(character string, repeatCount int) string {
 }
 
 func ExampleRepeat() {
-  repeated := Repeat("b", 10)
-  fmt.Println(repeated)
-  // Output: bbbbbbbbbb
+	repeated := Repeat("b", 10)
+	fmt.Println(repeated)
+	// Output: bbbbbbbbbb
 }
 
 func TestRepeat(t *testing.T) {
