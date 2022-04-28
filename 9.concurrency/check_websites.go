@@ -13,7 +13,7 @@ func CheckWebsites(wc WebsiteChecker, urls []string) map[string]bool {
 	for _, url := range urls {
 		go func(u string) {
 			// results[u] = wc(u)
-      resultChannel <- result{u, wc(u)}
+			resultChannel <- result{u, wc(u)}
 		}(url)
 	}
 
